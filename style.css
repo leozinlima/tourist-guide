@@ -7,6 +7,10 @@
     font-family: "Open Sans", sans-serif;
 }
 
+body {
+    background-color: #F5F4F0;
+}
+
 img {
     border-radius: 28px;
 }
@@ -20,6 +24,7 @@ header p, .font-initial > p {
     color: #E1624F;
     font-weight: bold;
     letter-spacing: 0%;
+    text-transform: uppercase;
 }
 
 h1 {
@@ -67,11 +72,11 @@ div > p {
     color : #333333;
 }
 
-ul {
+ul, li {
     font-weight: 700;
 }
 
-ul > li {
+ul > li, ol li {
     margin-left: 25px;
 }
 
