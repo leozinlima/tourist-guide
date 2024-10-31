@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
 :root {
     font-family: "Open Sans", sans-serif;
 }
@@ -11,17 +16,96 @@ img {
     margin: 88px auto 65px;;
 }
 
-header p {
+header p, .font-initial > p {
     color: #E1624F;
     font-weight: bold;
     letter-spacing: 0%;
 }
 
 h1 {
+    padding: 8px 0 40px;
+}
+
+h1, h2, h3 {
     color: #1B1B1B;
 }
 
 #descriptionAndImage p {
     color: #333333;
     text-align: center;
+    padding: 24px 0 40px;
+}
+
+.grayline {
+    width: 1120px;
+    height: 01px;
+    background-color: #D9D9D9;
+}
+
+article {
+    padding: 64px 0 64px;
+}
+
+h2 {
+    padding: 2px 0 8px;
+}
+
+section + section {
+    margin-top: 48px;
+}
+
+.font {
+    margin-top: 20px;
+}
+
+section + img {
+    width: 1120px;
+    height: 350px;
+}
+
+div > p {
+    color : #333333;
+}
+
+ul {
+    font-weight: 700;
+}
+
+ul > li {
+    margin-left: 25px;
+}
+
+.blueword {
+    color: #0C51A7;
+}
+
+.purpleword {
+    color: #591B98;
+}
+
+.pinkword {
+    color: #E5245E;
+}
+
+.orangeword {
+    color: #E95E10;
+}
+
+main + div {
+    margin: 40px 0 40px;
+}
+
+.grayline + p {
+    color: #333333;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: #333333;
+    padding-bottom: 48px;
+}
+
+footer img {
+    vertical-align: middle;
 }
