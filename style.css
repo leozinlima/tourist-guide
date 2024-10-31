@@ -39,6 +39,7 @@ h1, h2, h3 {
     color: #333333;
     text-align: center;
     padding: 24px 0 40px;
+    font-style: italic;
 }
 
 .grayline {
