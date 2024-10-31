@@ -73,12 +73,24 @@ div > p {
     color : #333333;
 }
 
+ul > li, ol li {
+    margin-left: 25px;
+}
+
+ol li::marker {
+    font-size: 1em;
+}
+
 ul, li {
     font-weight: 700;
 }
 
-ul > li, ol li {
-    margin-left: 25px;
+ul > li {
+    list-style-type: disc;
+}
+
+ul li::marker {
+    color: #333333;
 }
 
 .blueword {
