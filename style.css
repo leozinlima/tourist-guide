@@ -88,6 +88,10 @@ ul li::marker {
     color: #333333;
 }
 
+ol li {
+    text-indent: -0.5em
+}
+
 .blueword {
     color: #0C51A7;
 }
